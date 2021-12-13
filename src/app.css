@@ -30,3 +30,27 @@
 	text-shadow: 0 0 20px #14ffec;
 	letter-spacing: 5px;
 }
+
+@media (max-width: 580px) {
+	.PadContainer {
+		padding: 10px;
+		width: 300px;
+		height: 300px;
+		background-color: #14ffec;
+		margin-top: 30px;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-evenly;
+		align-items: evenly;
+		border-radius: 10px;
+		box-shadow: 0 0 20px 10px #14ffec;
+	}
+	.Title {
+		font-size: 40px;
+		color: #14ffec;
+		text-align: center;
+		margin-top: 20px;
+		text-shadow: 0 0 20px #14ffec;
+		letter-spacing: 5px;
+	}
+}
