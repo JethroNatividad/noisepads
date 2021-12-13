@@ -11,4 +11,21 @@
 	text-transform: uppercase;
 	color: #fff;
 	text-shadow: 0 0 10px #fff;
+	transition: background-color 0.1s;
+}
+.PadClick {
+	width: 32%;
+	height: 32%;
+	background-color: #323232;
+	/* box-shadow: 0 0 5px 1px #0d7377; */
+	border-radius: 3px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 1.5em;
+	text-transform: uppercase;
+	color: #fff;
+	text-shadow: 0 0 10px #fff;
+	/* transition when changed background */
+	transition: background-color 0.1s;
 }
