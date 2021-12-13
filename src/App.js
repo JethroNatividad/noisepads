@@ -22,7 +22,7 @@ function App() {
       <div className="PadContainer">
         {pads.map(pad => (<Pad letter={pad.key} key={pad.key} sound={pad.sound} />))}
       </div>
-      <h1 className="Title">Jinet Noisepad</h1>
+      <h1 className="Title">Noisepad</h1>
     </div>
   );
 }
