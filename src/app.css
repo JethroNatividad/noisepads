@@ -1,0 +1,20 @@
+.App {
+	background-color: #212121;
+	height: 100vh;
+	width: 100vw;
+	display: flex;
+	justify-content: center;
+}
+.PadContainer {
+	padding: 10px;
+	width: 500px;
+	height: 500px;
+	background-color: #14ffec;
+	margin-top: 30px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	align-items: evenly;
+	border-radius: 10px;
+	box-shadow: 0 0 20px 10px #14ffec;
+}
