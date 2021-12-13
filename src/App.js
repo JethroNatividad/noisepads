@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import sound1 from './sounds/sound1.mp3'
 import sound2 from './sounds/sound2.mp3'
 import sound3 from './sounds/sound3.mp3'
@@ -17,6 +17,16 @@ function App() {
   const pads = [
     { key: 'q', sound: sound1 },
     { key: 'w', sound: sound2 }, { key: 'e', sound: sound3 }, { key: 'a', sound: sound4 }, { key: 's', sound: sound5 }, { key: 'd', sound: sound6 }, { key: 'z', sound: sound7 }, { key: 'x', sound: sound8 }, { key: 'c', sound: sound9 }]
+
+  useEffect(() => {
+    pads.forEach(p => {
+      let audio = new Audio(p.sound)
+      audio.muted = true
+      audio.play()
+    })
+  }, [])
+
+
   return (
     <div className="App">
       <div className="PadContainer">
